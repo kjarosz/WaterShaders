@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: WaterSurface
+  m_Shader: {fileID: 4800000, guid: 5f67c9913e109044ca0b122fb1bc7851, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: 2000
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailNormalMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ParallaxMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _OcclusionMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _EmissionMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailMask
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailAlbedoMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MetallicGlossMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _HeightMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 1ee5c334d371a3942af40057376db14e, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 4.80999994, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _SrcBlend
+        second: 1
+      data:
+        first:
+          name: _DstBlend
+        second: 0
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+      data:
+        first:
+          name: _Parallax
+        second: .0199999996
+      data:
+        first:
+          name: _ZWrite
+        second: 1
+      data:
+        first:
+          name: _Glossiness
+        second: .5
+      data:
+        first:
+          name: _BumpScale
+        second: 1
+      data:
+        first:
+          name: _OcclusionStrength
+        second: 1
+      data:
+        first:
+          name: _DetailNormalMapScale
+        second: 1
+      data:
+        first:
+          name: _UVSec
+        second: 0
+      data:
+        first:
+          name: _Mode
+        second: 0
+      data:
+        first:
+          name: _Metallic
+        second: 0
+      data:
+        first:
+          name: _Amplitude
+        second: .00999999978
+      data:
+        first:
+          name: _WaveDirectionX
+        second: 1
+      data:
+        first:
+          name: _WaveDirectionY
+        second: 1
+      data:
+        first:
+          name: _Phase
+        second: 3.33999991
+      data:
+        first:
+          name: _HeightMin
+        second: 1
+      data:
+        first:
+          name: _HeightMax
+        second: 1
+    m_Colors:
+      data:
+        first:
+          name: _EmissionColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _Wave1
+        second: {r: .00100000005, g: 0, b: 1, a: .529999971}
+      data:
+        first:
+          name: _Wave2
+        second: {r: .119999997, g: 1, b: 0, a: .479999989}
+      data:
+        first:
+          name: _Wave3
+        second: {r: .00100000005, g: -1, b: 0, a: .370000005}
+      data:
+        first:
+          name: _Wave4
+        second: {r: .109999999, g: 1, b: 1, a: .790000021}
+      data:
+        first:
+          name: _Amplitudes
+        second: {r: 7.76999998, g: .810000002, b: 1.01999998, a: 1.71000004}
+      data:
+        first:
+          name: _Wavelengths
+        second: {r: 3.74000001, g: 2.94000006, b: 2.3499999, a: 4.34000015}
+      data:
+        first:
+          name: _Speeds
+        second: {r: 1, g: .99000001, b: 2.20000005, a: 1}
+      data:
+        first:
+          name: _XDirections
+        second: {r: .449999988, g: 0, b: 1, a: -.449999988}
+      data:
+        first:
+          name: _YDirections
+        second: {r: .449999988, g: 1, b: 0, a: .449999988}
+      data:
+        first:
+          name: _WaterColor
+        second: {r: 0, g: .314999998, b: .578000009, a: .865999997}
+      data:
+        first:
+          name: _ZDirections
+        second: {r: -.449999988, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _CausticsColor
+        second: {r: 1, g: 1, b: 1, a: 1}
