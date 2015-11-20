@@ -109,7 +109,7 @@ Material:
       data:
         first:
           name: _Glossiness
-        second: .5
+        second: 0
       data:
         first:
           name: _BumpScale
@@ -158,6 +158,18 @@ Material:
         first:
           name: _HeightMax
         second: 1
+      data:
+        first:
+          name: _Tess
+        second: 32
+      data:
+        first:
+          name: _MinTessHeight
+        second: .453999996
+      data:
+        first:
+          name: _MaxTessHeight
+        second: 18.1000004
     m_Colors:
       data:
         first:
@@ -166,7 +178,7 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: 1, g: 1, b: 1, a: 1}
+        second: {r: .25502035, g: .172794119, b: .691176474, a: .233999997}
       data:
         first:
           name: _Wave1
@@ -186,19 +198,19 @@ Material:
       data:
         first:
           name: _Amplitudes
-        second: {r: 7.76999998, g: .810000002, b: 1.01999998, a: 1.71000004}
+        second: {r: -1.63, g: .75999999, b: -.430000007, a: .379999995}
       data:
         first:
           name: _Wavelengths
-        second: {r: 3.74000001, g: 2.94000006, b: 2.3499999, a: 4.34000015}
+        second: {r: -.860000014, g: .519999981, b: .850000024, a: .790000021}
       data:
         first:
           name: _Speeds
-        second: {r: 1, g: .99000001, b: 2.20000005, a: 1}
+        second: {r: 1, g: .150000006, b: -.209999993, a: .150000006}
       data:
         first:
           name: _XDirections
-        second: {r: .449999988, g: 0, b: 1, a: -.449999988}
+        second: {r: 1, g: -4.0999999, b: 1, a: 1}
       data:
         first:
           name: _YDirections
@@ -210,7 +222,7 @@ Material:
       data:
         first:
           name: _ZDirections
-        second: {r: -.449999988, g: 1, b: 1, a: 1}
+        second: {r: 1, g: 1, b: .50999999, a: 1.59000003}
       data:
         first:
           name: _CausticsColor

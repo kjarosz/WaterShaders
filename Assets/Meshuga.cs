@@ -4,6 +4,7 @@ using System.Collections;
 public class Meshuga : MonoBehaviour {
     public Vector3[] newVertices;
     public int[] newTriangles;
+    public Vector2[] newUV;
 
 	void Start () {
         Mesh mesh = new Mesh();
@@ -12,14 +13,17 @@ public class Meshuga : MonoBehaviour {
         makeVertices();
         mesh.vertices = newVertices;
         mesh.triangles = newTriangles;
+        mesh.uv = newUV;
 	}
 
     void makeVertices()
     {
         int n = 150;
-        newVertices = new Vector3[n*n];
         int tCount = triangleCount(n) * 3;
+
+        newVertices = new Vector3[n*n];
         newTriangles = new int[tCount];
+        newUV = new Vector2[newVertices.Length];
 
         float vertexGap = 0.05f;
         float width = n * vertexGap;
@@ -34,7 +38,8 @@ public class Meshuga : MonoBehaviour {
             for(int z = 0; z < n; z++)
             {
                 int i = x * n + z;
-                newVertices[i] = new Vector3(x*.05f - halfWidth, 0.0f, z*.05f - halfHeight);
+                newVertices[i] = new Vector3(x*.065f - halfWidth, 0.0f, z*.065f - halfHeight);
+                newUV[i] = new Vector2(newVertices[i].x, newVertices[i].z);
 
                 if (x < n - 1 && z < n - 1)
                 {
